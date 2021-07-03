@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofxMarchingCubes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSTL\src\ofxSTLExporter.cpp">
+      <Filter>ofxSTL\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSTL\src\ofxSTLImporter.cpp">
+      <Filter>ofxSTL\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxSTL">
+      <UniqueIdentifier>{8cf9976b-064c-4e09-8a27-8863afe41915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxSTL\src">
+      <UniqueIdentifier>{d3958e58-9edb-4432-8d57-3df4a779a073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxSTL\src\utils">
+      <UniqueIdentifier>{586bfb3d-2b9e-4e81-a513-898b551b065e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofxMarchingCubes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxMCTypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tables.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\ofxSTL.h">
+      <Filter>ofxSTL\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\ofxSTLBase.h">
+      <Filter>ofxSTL\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\ofxSTLExporter.h">
+      <Filter>ofxSTL\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\ofxSTLFacet.h">
+      <Filter>ofxSTL\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\ofxSTLImporter.h">
+      <Filter>ofxSTL\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\utils\ofxSTLASCIIReader.h">
+      <Filter>ofxSTL\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\utils\ofxSTLASCIIWriter.h">
+      <Filter>ofxSTL\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\utils\ofxSTLBinaryReader.h">
+      <Filter>ofxSTL\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\utils\ofxSTLBinaryWriter.h">
+      <Filter>ofxSTL\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\utils\ofxSTLReaderBase.h">
+      <Filter>ofxSTL\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSTL\src\utils\ofxSTLWriterBase.h">
+      <Filter>ofxSTL\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MetaBall.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
